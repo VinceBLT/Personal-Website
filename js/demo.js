@@ -8,8 +8,8 @@ document.addEventListener(
   "DOMContentLoaded",
   function () {
     particleground(document.getElementById("particles"), {
-      dotColor: "#22486a",
-      lineColor: "#22486a",
+      dotColor: "#7970b1",
+      lineColor: "#7970b1",
     });
     var intro = document.getElementById("intro");
     intro.style.marginTop = -intro.offsetHeight / 2 + "px";
