@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -25,7 +25,12 @@
 
   <body>
     <div id="particles">
-      <div id="intro">
+      <div
+        id="intro"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10">
           Vincent Bezault
         </h2>
@@ -60,7 +65,7 @@
     <div class="container" id="main">
       <div class="card">
         <div></div>
-        <div class="Profil wow fadeIn data-wow-duration="2s"">
+        <div class="Profil" data-aos="zoom-out-up" data-aos-duration="1000">
           <h4>Profil</h4>
           <h5>
             Je suis passionné par les technologies, le code et les challenges,
@@ -71,7 +76,12 @@
         </div>
       </div>
       <div class="items">
-        <div class="item1">
+        <div
+          class="item1"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <h4>Design</h4>
           <svg width="80" height="80" viewBox="0 0 128 128">
             <path
@@ -138,7 +148,12 @@
           </svg>
           <h5>Maquettage, construction et mise en page responsive</h5>
         </div>
-        <div class="item2">
+        <div
+          class="item2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="350"
+        >
           <h4>Code</h4>
           <svg width="70" height="70" viewBox="0 0 128 128">
             <path
@@ -193,7 +208,12 @@
 
           <h5>Fullstack JavaScript ainsi que des notions diverses</h5>
         </div>
-        <div class="item2">
+        <div
+          class="item2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="600"
+        >
           <h4>Outils</h4>
           <svg width="80" height="80" viewBox="0 0 128 128">
             <g fill="#181616">
@@ -293,9 +313,10 @@
         </div>
       </div>
     </div>
-    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    new WOW().init();
+      AOS.init();
     </script>
+    <!--<script src="js/AOSinit.js"></script>-->
   </body>
 </html>
