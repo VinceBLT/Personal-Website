@@ -156,7 +156,7 @@ p {
 
 .item3:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .item2 {
@@ -174,7 +174,7 @@ p {
 
 .item2:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .item1 {
@@ -191,7 +191,7 @@ p {
 
 .item1:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .items {
@@ -214,6 +214,21 @@ p {
   text-align: center;
   transition: 0.3s;
   justify-content: center;
+}
+
+.profilcont {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.profilcont:hover {
+  box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 svg {
