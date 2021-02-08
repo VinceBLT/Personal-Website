@@ -70,10 +70,10 @@ body {
 #rocket {
   position: relative;
   visibility: hidden;
-  transform: rotate(70deg);
-  top: 60%;
-  animation-duration: 10s;
+  transform: rotate(80deg);
+  animation-duration: 5s;
   animation-name: move;
+  animation-timing-function: linear;
 }
 
 #particles {
@@ -332,12 +332,12 @@ a:hover {
 
 @keyframes move {
   0% {
-    top: 60%;
+    top: 58%;
     left: 0%;
     visibility: visible;
   }
   100% {
-    top: 20%;
+    top: 58%;
     left: 100%;
   }
 }
