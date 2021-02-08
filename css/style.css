@@ -67,6 +67,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+#rocket {
+  position: relative;
+  visibility: hidden;
+  transform: rotate(70deg);
+  top: 60%;
+  animation-duration: 10s;
+  animation-name: move;
+}
+
 #particles {
   display: grid;
   width: 100%;
@@ -321,11 +330,14 @@ a:hover {
 
 /* Keyframes */
 
-@keyframes fadeIn {
+@keyframes move {
   0% {
-    opacity: 0;
+    top: 60%;
+    left: 0%;
+    visibility: visible;
   }
   100% {
-    opacity: 1;
+    top: 20%;
+    left: 100%;
   }
 }
