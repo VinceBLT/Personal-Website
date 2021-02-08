@@ -204,6 +204,25 @@ p {
   justify-content: center;
 }
 
+.portfolio2 {
+  width: 60rem;
+  height: auto;
+  grid-column: auto;
+}
+
+.portfolio1 {
+  width: 60rem;
+  height: auto;
+  grid-column: auto;
+}
+
+.portfolio {
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 100%, auto;
+}
+
 /* Added */
 .card {
   padding-bottom: 4rem;
