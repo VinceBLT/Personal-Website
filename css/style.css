@@ -70,10 +70,11 @@ body {
 #rocket {
   position: relative;
   visibility: hidden;
-  transform: rotate(80deg);
-  animation-duration: 5s;
+  transform: rotate(90deg);
+  animation-duration: 25s;
   animation-name: move;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 #particles {
@@ -335,6 +336,10 @@ a:hover {
     top: 58%;
     left: 0%;
     visibility: visible;
+  }
+  20% {
+    top: 58%;
+    left: 100%;
   }
   100% {
     top: 58%;
