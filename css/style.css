@@ -155,10 +155,11 @@ h3 {
 }
 
 h2 {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 600;
   font-size: 100px;
   font-weight: 120;
   color: #ffffff;
-  letter-spacing: 0.05em;
   padding: 3rem;
 }
 
@@ -274,6 +275,19 @@ p {
   justify-content: center;
 }
 
+.dot {
+  position: absolute;
+  animation-name: moveRight;
+  animation-duration: 16s;
+  visibility: hidden;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(178, 152, 228);
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+}
+
 .profilcont {
   padding: 2rem;
   background: rgba(255, 255, 255, 0.45);
@@ -362,16 +376,16 @@ a:hover {
 
 @keyframes moveRight {
   0% {
-    top: 60%;
+    bottom: 5%;
     left: 0%;
     visibility: visible;
   }
   50% {
-    top: 60%;
+    bottom: 5%;
     left: 100%;
   }
   100% {
-    top: 60%;
+    bottom: 5%;
     left: 100%;
   }
 }
@@ -438,7 +452,7 @@ a:hover {
 
 .typed-text {
   font-size: 100px;
-  font-weight: 120;
+  font-weight: 1000;
   color: #ffffff;
   letter-spacing: 0.05em;
 }
