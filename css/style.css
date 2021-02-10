@@ -159,6 +159,7 @@ h2 {
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  padding: 3rem;
 }
 
 h1::after {
@@ -406,4 +407,38 @@ a:hover {
   50% {
     border-color: orange;
   }
+}
+
+/* Typewriting */
+.cursor {
+  display: inline-block;
+  width: 4px;
+  background-color: rgb(255, 255, 255);
+  animation: blink 1s infinite;
+  z-index: 1;
+}
+
+@keyframes blink {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  49% {
+    background-color: rgb(255, 255, 255);
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.typed-text {
+  font-size: 100px;
+  font-weight: 120;
+  color: #ffffff;
+  letter-spacing: 0.05em;
 }
