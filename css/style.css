@@ -160,6 +160,7 @@ h2 {
   color: #ffffff;
   letter-spacing: 0.05em;
 }
+
 h1::after {
   content: "";
   width: 80px;
@@ -383,5 +384,26 @@ a:hover {
   }
   100% {
     bottom: 100%;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
   }
 }
