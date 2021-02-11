@@ -782,11 +782,11 @@ nav.circle ul li a:after {
   background: transparent;
 }
 nav.circle ul li a:hover:after {
-  -webkit-animation: circle 1.5s ease-in forwards;
+  animation: circle 1.5s ease-in forwards;
 }
 
 /* Keyframes */
-@-webkit-keyframes circle {
+@keyframes circle {
   0% {
     width: 1px;
     top: 0;
