@@ -197,6 +197,7 @@ p {
 .item3:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
   background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
 }
 
 .item2 {
@@ -215,6 +216,7 @@ p {
 .item2:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
   background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
 }
 
 .item1 {
@@ -232,6 +234,7 @@ p {
 .item1:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
   background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
 }
 
 .items {
@@ -256,6 +259,7 @@ img {
 
 img:hover {
   opacity: 1;
+  transition: 0.5s;
 }
 
 #myWork {
@@ -315,6 +319,7 @@ img:hover {
 .profilcont:hover {
   box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
   background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
 }
 
 svg {
