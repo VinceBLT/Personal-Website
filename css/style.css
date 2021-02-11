@@ -251,11 +251,17 @@ img {
   background-position: center center;
   width: 100%;
   height: auto;
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1;
 }
 
 #myWork {
   padding-top: 6rem;
-  grid-template-columns: repeat(auto-fill, 80%);
+  grid-template-columns: repeat(auto-fill, 70%);
+  margin: 0;
 }
 
 /* Added */
@@ -483,6 +489,7 @@ i:hover {
 /* Hamburger MENU */
 button {
   position: absolute;
+  position: fixed;
   top: 9%;
   left: 93%;
   width: 50px;
@@ -672,6 +679,7 @@ button:active .atom:nth-child(1) {
 .showNav {
   /* show the menu */
   transform: translateY(0);
+  position: fixed;
 }
 
 /* change ham image to close */
