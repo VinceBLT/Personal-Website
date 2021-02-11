@@ -178,7 +178,7 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-.projects {
+.project {
   padding-top: 10rem;
 }
 
@@ -262,18 +262,25 @@ img:hover {
   transition: 0.5s;
 }
 
-#myWork {
-  padding-top: 6rem;
-  grid-template-columns: repeat(auto-fill, 70%);
-  margin: 0;
-}
-
 /* Added */
 .card {
   padding-top: 8rem;
   padding-bottom: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, 60%);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(110px, auto);
+  text-align: center;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.cardProject {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  padding-inline: 15rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 90%);
   grid-gap: 0px;
   grid-auto-rows: minmax(110px, auto);
   text-align: center;
@@ -322,6 +329,22 @@ img:hover {
   transition: 0.5s;
 }
 
+.project {
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.project:hover {
+  box-shadow: 0 8px 80px 0 rgba(31, 38, 135, 0.37);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
+}
+
 svg {
   display: inline-block;
   margin-left: 5px;
@@ -339,9 +362,9 @@ a {
 }
 
 i:hover {
-  color: rgb(251, 255, 170);
+  color: #3ec7ce;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgb(251, 255, 170);
+  box-shadow: 0px 0px 15px #3ec7ce;
   animation: bounce 1s ease infinite;
 }
 
@@ -356,8 +379,18 @@ i:hover {
     grid-gap: 60px;
   }
 
-  #myWork {
+  .card {
     padding-top: 0;
+    padding-inline: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 60px;
+  }
+
+  .cardProject {
+    padding-top: 0;
+    padding-inline: 1rem;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
   }
 }
 
@@ -508,12 +541,12 @@ button {
 
 .atom {
   height: 0px;
-  border: 2px solid #fff;
+  border: 2px solid #fefefe;
   width: 45px;
   display: block;
   position: absolute;
   transition: all 300ms cubic-bezier(0.61, 0.01, 0.42, 1);
-  background: #fff;
+  background: #ffffff;
 }
 
 button:hover {
@@ -763,11 +796,11 @@ nav.circle ul li a:hover:after {
     margin: auto;
     height: 1px;
     z-index: -1;
-    background: rgb(251, 253, 255);
+    background: #bdfcff;
     border-radius: 100%;
   }
   100% {
-    background: rgb(251, 255, 170);
+    background: #3ec7ce;
     height: 5000%;
     width: 5000%;
     z-index: -1;
