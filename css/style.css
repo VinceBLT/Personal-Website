@@ -307,7 +307,7 @@ img:hover {
   visibility: hidden;
   height: 20px;
   width: 20px;
-  background-color: rgb(178, 152, 228);
+  background-color: rgb(228, 213, 255);
   border-radius: 50%;
   display: inline-block;
   z-index: 1;
@@ -811,4 +811,47 @@ nav.circle ul li a:hover:after {
     margin: auto;
     border-radius: 0;
   }
+}
+
+/* Contact Form */
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  border: 1px solid rgb(206, 206, 206); /* Gray border */
+  border-radius: 15px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+  box-shadow: 0px 0px 15px #45a049;
+  opacity: 1;
+}
+
+form {
+  padding: 2rem;
+}
+
+label {
+  position: relative;
+  font-weight: 400;
+  left: -43%;
 }
