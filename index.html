@@ -627,13 +627,15 @@
         <div class="profilcont" data-aos="fade-up" data-aos-duration="700">
           <div class="Profil">
             <h4>Contact</h4>
-            <form action="action_page.php" method="POST">
+            <form action="form-process.php" method="POST">
               <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
                 name="name"
+                required
                 placeholder="Your name.."
+                data-error="Please fill Out"
               />
 
               <label for="email">Email</label>
@@ -641,15 +643,19 @@
                 type="text"
                 id="email"
                 name="email"
+                required
                 placeholder="Your email.."
+                data-error="Please fill Out"
               />
 
               <label for="message">Message</label>
               <textarea
                 id="message"
                 name="message"
+                required
                 placeholder="Write something.."
                 style="height: 200px"
+                data-error="Please fill Out"
               ></textarea>
 
               <input type="submit" value="Submit !" />

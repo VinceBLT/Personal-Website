@@ -66,8 +66,6 @@ menuLinks.forEach(function (menuLink) {
 });
 
 /* MEDIA QUERIES */
-const title = document.querySelector(".typed-text");
-
 function myFunction(x) {
   if (x.matches) {
     // If media query matches
