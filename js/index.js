@@ -79,7 +79,7 @@ function myFunction(x) {
     document.querySelector(".typed-text").style.fontSize = "6rem";
     document.querySelector("button").style.left = "94%";
     document.querySelector("button").style.top = "9%";
-    document.querySelector("h3").style.fontSize = "50px";
+    document.querySelector("h3").style.fontSize = "25px";
   }
 }
 
