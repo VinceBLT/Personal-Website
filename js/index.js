@@ -72,12 +72,14 @@ function myFunction(x) {
   if (x.matches) {
     // If media query matches
     document.querySelector(".typed-text").style.fontSize = "4rem";
-    document.querySelector("button").style.left = "80%";
+    document.querySelector("button").style.left = "85%";
     document.querySelector("button").style.top = "5%";
+    document.querySelector("h3").style.fontSize = "20px";
   } else {
     document.querySelector(".typed-text").style.fontSize = "6rem";
     document.querySelector("button").style.left = "94%";
     document.querySelector("button").style.top = "9%";
+    document.querySelector("h3").style.fontSize = "50px";
   }
 }
 
