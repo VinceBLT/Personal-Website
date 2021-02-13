@@ -238,6 +238,7 @@ p {
 .items {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  padding-inline: 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, 30%);
   grid-gap: 10px;
@@ -264,6 +265,7 @@ img:hover {
 .card {
   padding-top: 8rem;
   padding-bottom: 4rem;
+  margin-inline: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fill, 60%);
   grid-gap: 0px;
@@ -370,7 +372,7 @@ i:hover {
 
   .card {
     padding-top: 0;
-    padding-inline: 1rem;
+    padding-inline: 2rem;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 60px;
   }
