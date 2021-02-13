@@ -361,6 +361,7 @@ i:hover {
   h1 {
     font-size: 15px;
   }
+
   .items {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 60px;
@@ -396,7 +397,7 @@ i:hover {
 
 @media only screen and (max-width: 100px) {
   #intro {
-    padding: 0 10px;
+    padding: 0px;
   }
   h1 {
     font-size: 15px;
@@ -513,6 +514,11 @@ i:hover {
   font-weight: 1000;
   color: #ffffff;
   letter-spacing: 0.05em;
+}
+
+.titleContainer {
+  position: relative;
+  top: -30px;
 }
 
 /* Hamburger MENU */

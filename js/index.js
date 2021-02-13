@@ -69,15 +69,17 @@ menuLinks.forEach(function (menuLink) {
 function myFunction(x) {
   if (x.matches) {
     // If media query matches
-    document.querySelector(".typed-text").style.fontSize = "4rem";
+    document.querySelector(".typed-text").style.fontSize = "3.5rem";
     document.querySelector("button").style.left = "85%";
     document.querySelector("button").style.top = "5%";
     document.querySelector("h3").style.fontSize = "20px";
+    document.querySelector(".titleContainer").style.top = "-100px";
   } else {
     document.querySelector(".typed-text").style.fontSize = "6rem";
     document.querySelector("button").style.left = "94%";
     document.querySelector("button").style.top = "9%";
     document.querySelector("h3").style.fontSize = "25px";
+    document.querySelector(".titleContainer").style.top = "-30px";
   }
 }
 
