@@ -121,7 +121,7 @@ body {
 #main {
   background-image: url("../assets/bg.svg");
   background-color: rgb(235, 238, 255);
-  background-size: cover;
+  background-size: auto 100%;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
